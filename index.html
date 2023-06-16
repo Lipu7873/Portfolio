@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="responsive.css"> -->
+    <script type="module"src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.legacy.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- move to up button -->
+    <div class="scroll-button">
+        <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+    
+    <!-- navigation menu -->
+    <nav>
+        <div class="navbar">
+            <div class="logo"><a href="#">Portfolio.</a></div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <div class="cancel-btn">
+                    <i class="fa-solid fa-times"></i>
+                </div>
+            </ul>
+        </div>
+        <div class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        
+    </nav>
+    
+
+    <!-- HOME SECTION -->
+    <section class="home" id="home">
+        <div class="container">
+
+            <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Lipu Swain</h1>
+            <h3>And I'm a <span>Frontend Developer</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nulla debitis error explicabo aspernatur aut! Magnam, deserunt!</p>
+            <div class="social-media">
+                <a href="https://github.com/Lipu7873"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/home"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/its_lipu12/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/lipu-swain-58a896249/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="button">
+                <a href="#" class="btn">Download CV</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#FF0066" d="M38.3,-30.8C54,-22.5,74.2,-11.3,74.8,0.6C75.4,12.5,56.5,25,40.8,40.4C25,55.7,12.5,73.8,-2.5,76.2C-17.4,78.7,-34.9,65.5,-45.3,50.2C-55.7,34.9,-59,17.4,-62,-3C-65.1,-23.5,-67.8,-47,-57.4,-55.3C-47,-63.5,-23.5,-56.5,-6.1,-50.4C11.3,-44.2,22.5,-39,38.3,-30.8Z" transform="translate(100 100)" />
+            </svg>
+            <!-- <img src="Images/bg-2.png" alt=""> -->
+        </div>
+    </div>
+    </section>
+
+
+
+<!-- About Section -->
+<section class="about" id="about">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/about.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio amet inventore molestiae exercitationem voluptatem corrupti rerum ea, atque odio fuga!</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>Building Androis/iOS app</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br>Frontend from iNeuron</li>
+                        <li><span>2022</span><br>BCA from Presidency college Berhampur</li>
+                        <li><span>2018</span><br>12th from RKC Surada</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- End of about section -->
+
+<!-- Skills Section -->
+
+<section class="skill" id="skill">
+ <!-- <div class="container"> -->
+    <h2>My Skills</h2>
+    <div class="skills_container">
+        <div class="skills_box">
+            <div class="skill-title">
+                <div class="img">
+                    <img src="Images/html.png">
+                </div>
+                <h3>Html</h3>
+            </div>
+            <div class="skill-title">
+                <div class="img">
+                    <img src="Images/css.png">
+                </div>
+                <h3>CSS</h3>
+            </div>
+            <div class="skill-title">
+                <div class="img">
+                    <img src="Images/js1.png">
+                </div>
+                <h3>Javascript</h3>
+            </div>
+            <div class="skill-title">
+                <div class="img">
+                    <img src="Images/react.png">
+                </div>
+                <h3>React</h3>
+            </div><div class="skill-title">
+                <div class="img">
+                    <img src="Images/c.png">
+                </div>
+                <h3>C language</h3>
+            </div>
+            <div class="skill-title">
+                <div class="img">
+                    <img src="Images/c++.png">
+                </div>
+                <h3>C++</h3>
+            </div>
+        </div>
+        <div class="img-right">
+            <img src="Images/side1.png">
+        </div>
+    </div>
+ <!-- </div> -->
+</section>
+
+<!---------------------------------------- Projects Section ------------------------------------------------ -->
+
+<section class="project" id="project">
+    <!-- <div class="container"> -->
+        <div class="row">
+            <h2>My Project</h2>
+            <small>let's see my works</small>
+        </div>
+        <div class="project-container">
+
+            <div class="project-box">
+                <span style="background-image: url('Images/netflix.png');"></span>
+                <!-- <img src="Images/07.png" alt=""> -->
+                <div class="project-layer">
+                    <h4>Netflix</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, temporibus!</p>
+                    <a href="https://lipu7873.github.io/Netflix_clone/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <span style="background-image: url('Images/SocialBook.png');"></span>
+                <!-- <img src="Images/03.png" alt=""> -->
+                <div class="project-layer">
+                    <h4>Socialbook</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, temporibus!</p>
+                    <a href="https://lipu7873.github.io/SocialBook/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <span style="background-image: url('Images/Skills-up.png');"></span>
+                <!-- <img src="Images/04.png" alt=""> -->
+                <div class="project-layer">
+                    <h4>Skills-Up</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, temporibus!</p>
+                    <a href="https://lipu7873.github.io/Skills-up/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <span style="background-image: url('Images/Car-Godown.png');"></span>
+                <!-- <img src="Images/05.png" alt=""> -->
+                <div class="project-layer">
+                    <h4>Car-Godown</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, temporibus!</p>
+                    <a href="https://lipu7873.github.io/Car-Godown/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <span style="background-image: url('Images/myfoodcircles.png');"></span>
+                <!-- <img src="Images/06.png" alt=""> -->
+                <div class="project-layer">
+                    <h4>FoodCircle</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, temporibus!</p>
+                    <a href="https://myfoodcircles.netlify.app"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <span style="background-image: url('Images/usabilityHub.png');">
+                    <!-- <img src="Images/netflix.png" alt=""> -->
+                </span>
+                <div class="project-layer">
+                    <h4>UsabilityHub</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, temporibus!</p>
+                    <a href="https://lipu7873.github.io/UsabilityHub-clon/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+        </div>
+    <!-- </div> -->
+</section>
+
+
+<!------------------------------------- Contact Section-------------------------------------------->
+<section class="contact" id="contact">
+    <div class="form-box">
+        <h1 class="form-title">Contact</h1>
+        <div class="form-bg">
+            <form id="form">
+                <div class="form-content">
+                    <div class="email-box">
+                        <label for="email" class="email-title">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="ex: lipu@gmail.com" class="email-input">
+                    </div>
+                    <div class="subject-box">
+                        <label for="subject" class="subject-title">Subject:</label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject E-mail" class="email-input">
+                    </div>
+                    <div class="message-box">
+                        <label for="message" class="message-title">Message:</label>
+                        <textarea type="text" id="message" name="message" placeholder="Text here" class="message-input"></textarea>
+                    </div>
+                    <div id="buttons">
+                        <button type="submit" class="send-button btn" desable>Send</button>
+                        <button type="reset" class="reset-button btn" desable>Reset</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <model-viewer class="robo" src="./models/robot_playground/scene.gltf"
+    camera-contros
+    disable-pan
+    disable-zoom
+    interaction-prompt="none"
+    field-of-view="10deg"
+    autoplay="experiment_object_150"
+    >
+    </model-viewer>
+</section>
+
+<!-- footer Section -->
+
+<!-- Start Footer -->
+<section class="footer">
+    <div class="container">
+      <p>Connect With Me</p>
+      <div class="social-icons">
+          <a href=""><i class="fas fa-home"></i></a> 
+        <a href="https://github.com/Lipu7873"><i class="fa-brands fa-github"></i></a>
+        <a href="https://twitter.com/home"><i class="fa-brands fa-twitter"></i></a> 
+        <a href="https://www.linkedin.com/in/lipu-swain-58a896249/"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <p class="copyright">&copy; 2023 <span>lipuswain.</span> All Right Reserved</p>
+    </div>
+</section>
+  <!-- End Footer -->
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/44b15006f4.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
