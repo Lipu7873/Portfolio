@@ -62,6 +62,7 @@ section{
     width: 100%;
     /* min-height: 100vh; */
     padding: 10rem 9% 3rem;
+    overflow: hidden;
 }
 
 a{
